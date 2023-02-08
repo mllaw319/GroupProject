@@ -5,6 +5,11 @@ website:
   title: "GroupProject"
   navbar:
     left:
+    - text: "The Beginning"
+      menu:
+        - text: "Project Proposal"
+          href: "Proposal/Proposal.html"
+    right:
       - href: index.qmd
         text: Home
       - about.qmd

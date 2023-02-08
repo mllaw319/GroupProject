@@ -1,11 +1,13 @@
 ---
-title: "GroupProject"
+title: "Shine on the Olympics"
 ---
 
-This is a Quarto website.
+A group project for the ISSS608 Visual Analytics and Applications module in 2023 (January term).
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Group 11 members:
 
-```{r}
-1 + 1
-```
+Cheryl Jean Chiew
+
+Apple Law Man Long
+
+Farrah Mohd Fadil
