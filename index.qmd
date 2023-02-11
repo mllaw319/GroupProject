@@ -2,12 +2,4 @@
 title: "Shine on the Olympics"
 ---
 
-A group project for the ISSS608 Visual Analytics and Applications module in 2023 (January term).
-
-Group 11 members:
-
-Cheryl Jean Chiew
-
-Apple Law Man Long
-
-Farrah Mohd Fadil
+![](OlympicsLogo2.png){fig-align="center"}

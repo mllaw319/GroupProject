@@ -2,8 +2,10 @@
 title: "About"
 ---
 
-About this site
+We are Group 11, comprising:
 
-```{r}
-1 + 1
-```
+-   Cheryl Jeanne Chiew
+
+-   Apple Law Man Long
+
+-   Farrah Mohd Fadil
