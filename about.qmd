@@ -2,10 +2,14 @@
 title: "About"
 ---
 
-We are Group 11, comprising:
+We have created this website and its Shiny app as a group project submission for the Singapore Management University's ISSS608 Visual Analytics and Applications course (January 2023 term). We are students of the university's Master of IT in Business, at its School of Computing and Information Systems.
 
--   Cheryl Jeanne Chiew
+Thank you for visiting.
 
--   Apple Law Man Long
+\
 
--   Farrah Mohd Fadil
+***Cheryl Jeanne Chiew***
+
+***Law Man Long***
+
+***Farrah Mohd Fadil***
