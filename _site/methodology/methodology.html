@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Methodology</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../methodology/methodology.html" aria-current="page">
+ <span class="menu-text">Methodology</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#swim-analytica" id="toc-swim-analytica" class="nav-link active" data-scroll-target="#swim-analytica"><strong>Swim Analytica</strong></a>
+  <ul class="collapse">
+  <li><a href="#data-used" id="toc-data-used" class="nav-link" data-scroll-target="#data-used">Data used</a></li>
+  <li><a href="#app-layout" id="toc-app-layout" class="nav-link" data-scroll-target="#app-layout">App layout</a>
+  <ul class="collapse">
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">1. Data</a></li>
+  <li><a href="#speed" id="toc-speed" class="nav-link" data-scroll-target="#speed">2. Speed</a></li>
+  <li><a href="#reaction-times" id="toc-reaction-times" class="nav-link" data-scroll-target="#reaction-times">4. Reaction Times</a></li>
+  <li><a href="#split-times" id="toc-split-times" class="nav-link" data-scroll-target="#split-times">5. Split Times</a></li>
+  <li><a href="#performance-over-rounds" id="toc-performance-over-rounds" class="nav-link" data-scroll-target="#performance-over-rounds">6. Performance Over Rounds</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Methodology</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="swim-analytica" class="level1">
+<h1><strong>Swim Analytica</strong></h1>
+<p>A shiny app to help swim coaches gain insights to a more targeted training approach.</p>
+<p><br>
+</p>
+<section id="data-used" class="level2">
+<h2 class="anchored" data-anchor-id="data-used">Data used</h2>
+<p>To build the app, we have used data scraped from official results released by the Tokyo Olympics official timing sponsor, Omega, in .pdf format. The SwimmeR package was used for data-scraping. (It should be noted that the SwimmeR package was removed from the CRAN repository on 01/03/2023, however earlier versions are still available in the CRAN archive. As at 15/03/2023, the original data files, in .pdf format, remain publicly available at the <a href="https://github.com/gpilgrim2670/Pilgrim_Data/tree/master/Tokyo2020">SwimmeR package developer’s GitHub repository</a>.)&nbsp;</p>
+<p>The data comprises the following, for each registered competitor at the Tokyo Olympics swimming events:&nbsp;</p>
+<ul>
+<li><p>Round (Heats, Semi-Finals, Finals)&nbsp;</p></li>
+<li><p>Event (e.g.&nbsp;Men’s 100m Freestyle, Women’s 200m Butterfly, etc)&nbsp;</p></li>
+<li><p>Reaction time&nbsp;</p></li>
+<li><p>Final time (in minutes, seconds and milliseconds to two decimal places)&nbsp;</p></li>
+<li><p>Split times (in seconds and milliseconds to two decimal places)&nbsp;</p></li>
+<li><p>Competitor name&nbsp;</p></li>
+<li><p>Team name&nbsp;</p></li>
+<li><p>Competitor’s lane at event&nbsp;</p></li>
+<li><p>Competitor’s position at end of the event&nbsp;</p></li>
+</ul>
+<p>The following additional variables were derived:</p>
+<ul>
+<li><p>Average speed (in metres per second, over an entire round for an event type)</p></li>
+<li><p>Speed per split (in metres per second)</p></li>
+</ul>
+<p><br>
+</p>
+</section>
+<section id="app-layout" class="level2">
+<h2 class="anchored" data-anchor-id="app-layout">App layout</h2>
+<p>The app comprises five sections, as follow:<br>
+</p>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">1. Data</h3>
+<p>In this section, the app user will be able to peruse the datasets that have been uploaded to the app, in data table format.</p>
+<p><br>
+</p>
+</section>
+<section id="speed" class="level3">
+<h3 class="anchored" data-anchor-id="speed">2. Speed</h3>
+<p>The app user will be given the opportunity to explore and confirm the following:</p>
+<ul>
+<li><p>Correlation between average speed and: (i) reaction time and (ii) split times; using scatter plot (by gender, event, stroke, race distance and/or round). <em>[Multivariate regression]</em></p></li>
+<li><p>Test the hypothesis that mean average speed of swimmers for any particular event is not the same across teams or across continents. <em>[Multivariate regression]</em></p></li>
+</ul>
+<p><br>
+</p>
+</section>
+<section id="reaction-times" class="level3">
+<h3 class="anchored" data-anchor-id="reaction-times">4. Reaction Times</h3>
+<p>The app user will be given the opportunity to explore and confirm the following:</p>
+<ul>
+<li><p>Patterns in distribution, to check for normality, using histogram (by gender, event, stroke, race distance and/or round). This may help provide the coach with benchmarks for performance.</p></li>
+<li><p>Correlation between reaction time and final time, using scatter plot (by gender, event, stroke, race distance and/or round). <em>[Multivariate regression]</em></p></li>
+<li><p>Test the hypothesis that mean reaction times are not the same across the two genders, across events. <em>[Multivariate regression]</em></p></li>
+<li><p>Test the hypothesis that mean reaction times are not the same across race distances, keeping gender constant. <em>[Multivariate regression]</em>&nbsp;</p></li>
+</ul>
+<p><br>
+</p>
+</section>
+<section id="split-times" class="level3">
+<h3 class="anchored" data-anchor-id="split-times">5. Split Times</h3>
+<p>The app user will be required to choose from the following options:</p>
+<p><br>
+<img src="NewMethod_1.jpg" class="img-fluid"></p>
+<p><br>
+</p>
+<p><em>* There exists no authoritative approach to how a swimmer’s pace over a race should be categorised. In general, three broad pacing “strategies” are referred to in online literature: a “positive split”, where the athlete’s average speed during the second half of a race is slower than that for the first half; a “negative split”, where the second half is faster; and “even pacing”, where the athlete maintains an even pace from the first to the second half of the race.</em></p>
+<p><em>Online literature does not offer any authoritative comment on the range of variability from the athlete’s average speed that qualifies as “even pacing”. Thus the user may choose this range. The lower and upper ends of the range are each expressed as swimmer’s average speed over the second half of the race as a percentage of the swimmer’s average speed over the first half of the race. To aid the user’s decision, a frequency table is automatically plotted for the chosen event, where the frequency of average speed over the second half of the race as a percentage of the average speed over the first half of the race, is shown. If the swimmer’s average speed in the second half of the race is slower than this range, then the swimmer’s pacing strategy is considered as “positive split”; likewise, if it is faster, then it is a “negative split”.</em>&nbsp;</p>
+<p><br>
+There are five sub-sections in this section:<br>
+</p>
+<section id="overview" class="level4">
+<h4 class="anchored" data-anchor-id="overview">Overview</h4>
+<p>The top of the main panel provides a visualisation offering an overview based on the app user’s inputs.&nbsp;</p>
+<ul>
+<li><p>A multiple line chart showing the speed of each swimmer at each split. [The average speed across all swimmers for each split is also shown.]&nbsp;&nbsp;</p></li>
+<li><p>A bar chart showing each swimmer’s average speed for each round in the event. [This chart would be ordered from fastest to slowest speed.]&nbsp;</p></li>
+<li><p>The charts are interactive - hovering over a line will highlight it and show: Name, Team, Round, Place and Final Time. The corresponding bar in the bar chart would also be highlighted.&nbsp;<br>
+##### Distance</p></li>
+</ul>
+<p>The app user may test the hypothesis that a swimmer’s speed during a split is correlated with the distance that the swimmer is at.&nbsp;</p>
+<ul>
+<li><p>Visualise using a scatter plot, with distance on the x-axis and speed on the y-axis. There are two graphs: one where all splits are included, and another where the first and last splits are excluded.</p></li>
+<li><p>For each, test the null hypothesis that the swimmer’s split time is not at all correlated with the distance they are at in the swim, using <strong>cor.test()</strong>.</p></li>
+</ul>
+</section>
+<section id="pacing-default" class="level4">
+<h4 class="anchored" data-anchor-id="pacing-default">Pacing (Default)</h4>
+<p>The app user can visualise the three default pacing categories – Positive Split, Negative Split, Even Pacing – in a multiple line chart, where the colour of the line indicates the pacing category.&nbsp;</p>
+<ul>
+<li><p>Frequency table, showing the count for each percentage range (where the lower and upper ends are each average speed during second half of the race as a percentage of average speed during the first half of the race). This will help user decide what inputs to provide as the range recognised as “Even Pacing”.&nbsp;</p></li>
+<li><p>Line chart similar to the one in overview, except lines are coloured based on pacing category&nbsp;</p></li>
+</ul>
+</section>
+<section id="pacing-clusters" class="level4">
+<h4 class="anchored" data-anchor-id="pacing-clusters">Pacing (Clusters)</h4>
+<p>The app user may conduct hierarchical clustering using <strong>hclust</strong> to discover possible other alternative pacing clusters.&nbsp;</p>
+<ul>
+<li><p>The clustering is visualised as a dendrogram with clusters differentiated by colour.&nbsp;&nbsp;</p></li>
+<li><p>Cluster labels are appended to the dataset, allowing the user to visualise a multiple line chart showing how speed changes over splits for each cluster.<br>
+</p></li>
+</ul>
+</section>
+<section id="performance" class="level4">
+<h4 class="anchored" data-anchor-id="performance">Performance</h4>
+<p>Analysis of Variance (ANOVA) to determine presence of statistically significant differences between the mean performances for different pacing categories&nbsp;</p>
+<ul>
+<li>One-way ANOVA tests are conducted for differences in median performance (average speed, final time) for different pacing categories. The results are visualised as violin boxplots using <strong>ggstatsplots</strong>. (The non-parametric method is default chosen for the ANOVA tests because of small sample sizes.)</li>
+</ul>
+<p><br>
+</p>
+</section>
+</section>
+<section id="performance-over-rounds" class="level3">
+<h3 class="anchored" data-anchor-id="performance-over-rounds">6. Performance Over Rounds</h3>
+<p>The app user will be given the opportunity to explore and confirm the following:</p>
+<ul>
+<li><p>Using line charts to reveal changes in performance over rounds, for swimmers who have made it to the finals. We can plot the performance base on rounds or days ie. Days since last race&nbsp;</p></li>
+<li><p>Plotting Cumulative Distribution function of the difference in timings between semi-finals and finals, heats and finals, semis and heats.&nbsp;</p></li>
+<li><p>Test the hypothesis that swimmer performance during semi-finals is not the same as performance during finals, by gender. This will be tested using the two sample t-test, with results based on p-value and confidence intervals. This may help the coach understand the “competition effect” on the performance of swimmers - What is the fractional improvement of individual swimmers from the semifinals to the finals? Does the observed fractional improvement commensurate with there being no difference in performance in the semifinals and finals?&nbsp;</p></li>
+<li><p>Determine if swimmer performance is consistent over rounds, using the Mann-Kendall test, and testing if consistency if associated with podium performance (podium peformance refers to whether or not the swimmer is placed in the top three positions at the end of the race).</p></li>
+<li><p>Multivariate regression to determine explanatory power of a swimmer’s performance during heats and semi-finals, for swimmer’s performance during the finals.</p></li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
