@@ -8,6 +8,10 @@ website:
       text: Home
     - text: "Methodology"
       href: "methodology/methodology.html"
+    - text: "User Guide"
+      href: "userguide/userguide.html"
+    - text: "Poster"
+      href: "poster/poster.html"
     right:
       - about.qmd
 
