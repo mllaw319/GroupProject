@@ -117,10 +117,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#app-layout" id="toc-app-layout" class="nav-link" data-scroll-target="#app-layout">App layout</a>
   <ul class="collapse">
   <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">1. Data</a></li>
-  <li><a href="#speed" id="toc-speed" class="nav-link" data-scroll-target="#speed">2. Speed</a></li>
-  <li><a href="#reaction-times" id="toc-reaction-times" class="nav-link" data-scroll-target="#reaction-times">4. Reaction Times</a></li>
-  <li><a href="#split-times" id="toc-split-times" class="nav-link" data-scroll-target="#split-times">5. Split Times</a></li>
-  <li><a href="#performance-over-rounds" id="toc-performance-over-rounds" class="nav-link" data-scroll-target="#performance-over-rounds">6. Performance Over Rounds</a></li>
+  <li><a href="#speed-reaction-time" id="toc-speed-reaction-time" class="nav-link" data-scroll-target="#speed-reaction-time">2. Speed/ Reaction Time</a></li>
+  <li><a href="#split-times" id="toc-split-times" class="nav-link" data-scroll-target="#split-times">3. Split Times</a></li>
+  <li><a href="#performance-over-rounds" id="toc-performance-over-rounds" class="nav-link" data-scroll-target="#performance-over-rounds">4. Performance Over Rounds</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -184,30 +183,34 @@ ul.task-list li input[type="checkbox"] {
 <p><br>
 </p>
 </section>
-<section id="speed" class="level3">
-<h3 class="anchored" data-anchor-id="speed">2. Speed</h3>
+<section id="speed-reaction-time" class="level3">
+<h3 class="anchored" data-anchor-id="speed-reaction-time">2. Speed/ Reaction Time</h3>
 <p>The app user will be given the opportunity to explore and confirm the following:</p>
 <ul>
-<li><p>Correlation between average speed and: (i) reaction time and (ii) split times; using scatter plot (by gender, event, stroke, race distance and/or round). <em>[Multivariate regression]</em></p></li>
-<li><p>Test the hypothesis that mean average speed of swimmers for any particular event is not the same across teams or across continents. <em>[Multivariate regression]</em></p></li>
+<li><p>Explore the distribution of (i) average speed &amp; (ii) reaction time</p></li>
+<li><p>Explore the distribution of (i) average speed &amp; (ii) reaction time of different continents (grouped by countries data)</p></li>
+<li><p>Compare the mean of (i) average speed &amp; (ii) reaction time by selected variables and test the hypothesis that mean (i) average speed &amp; (ii) reaction time of swimmers for any particular event is not the same</p></li>
+<li><p>Correlation between (i) average speed &amp; (ii) reaction time for different styles, gender, distance and rounds</p></li>
 </ul>
-<p><br>
-</p>
-</section>
-<section id="reaction-times" class="level3">
-<h3 class="anchored" data-anchor-id="reaction-times">4. Reaction Times</h3>
-<p>The app user will be given the opportunity to explore and confirm the following:</p>
+<p>Below charts will be built to visualize the exploration and statistical analysis:</p>
 <ul>
-<li><p>Patterns in distribution, to check for normality, using histogram (by gender, event, stroke, race distance and/or round). This may help provide the coach with benchmarks for performance.</p></li>
-<li><p>Correlation between reaction time and final time, using scatter plot (by gender, event, stroke, race distance and/or round). <em>[Multivariate regression]</em></p></li>
-<li><p>Test the hypothesis that mean reaction times are not the same across the two genders, across events. <em>[Multivariate regression]</em></p></li>
-<li><p>Test the hypothesis that mean reaction times are not the same across race distances, keeping gender constant. <em>[Multivariate regression]</em>&nbsp;</p></li>
+<li><p>Interactive histogram and bar chart to shows the distribution using <strong>ggiraph</strong> and <strong>ggplot</strong>. The two graphs will be patched together with <strong>patchwork</strong></p></li>
+<li><p>Scatterdot plot to show the (i) average speed &amp; (ii) reaction time by continents using <strong>ggdotplotstats</strong></p></li>
+<li><p>Volin boxplot to compare the mean of (i) average speed &amp; (ii) reaction time using <strong>ggbetweenstats</strong></p></li>
+<li><p>Scatterdot plot to show the correlation between (i) average speed &amp; (ii) reaction time using <strong>ggstatsplots</strong></p></li>
+</ul>
+<p>The app user can select different variables/ options to run customized analysis:</p>
+<p><img src="speed_reactiontime.png" class="img-fluid"></p>
+<ul>
+<li><p>User can select the data scope with different variables including styles, gender, distance and rounds. In this way the user can select which variables to focus on. For example, user can select Style = backstroke, Gender = Male, Distance = 100m and Rounds = ALL to understand the average speed distribution for all rounds in the 100m Male Backstoke Event</p></li>
+<li><p>User can also customize the bin size for histogram to show meaningful pattern in distribution</p></li>
+<li><p>User can customize the statistical method such as parametric, nonparametric, robust or bayes for volin boxplot base on the distribution of the swimmer data.</p></li>
 </ul>
 <p><br>
 </p>
 </section>
 <section id="split-times" class="level3">
-<h3 class="anchored" data-anchor-id="split-times">5. Split Times</h3>
+<h3 class="anchored" data-anchor-id="split-times">3. Split Times</h3>
 <p>The app user will be required to choose from the following options:</p>
 <p><br>
 <img src="NewMethod_1.jpg" class="img-fluid"></p>
@@ -261,7 +264,7 @@ There are five sub-sections in this section:<br>
 </section>
 </section>
 <section id="performance-over-rounds" class="level3">
-<h3 class="anchored" data-anchor-id="performance-over-rounds">6. Performance Over Rounds</h3>
+<h3 class="anchored" data-anchor-id="performance-over-rounds">4. Performance Over Rounds</h3>
 <p>The app user will be given the opportunity to explore and confirm the following:</p>
 <ul>
 <li><p>Using line charts to reveal changes in performance over rounds, for swimmers who have made it to the finals. We can plot the performance base on rounds or days ie. Days since last race&nbsp;</p></li>

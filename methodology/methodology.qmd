@@ -59,11 +59,10 @@ The app user will be given the opportunity to explore and confirm the following:
 -   Explore the distribution of (i) average speed & (ii) reaction time of different continents (grouped by countries data)
 
 -   Compare the mean of (i) average speed & (ii) reaction time by selected variables and test the hypothesis that mean (i) average speed & (ii) reaction time of swimmers for any particular event is not the same
- 
+
 -   Correlation between (i) average speed & (ii) reaction time for different styles, gender, distance and rounds
 
-
-Below charts will be built to visualize the explorational and statistical analysis:
+Below charts will be built to visualize the exploration and statistical analysis:
 
 -   Interactive histogram and bar chart to shows the distribution using **ggiraph** and **ggplot**. The two graphs will be patched together with **patchwork**
 
@@ -72,7 +71,6 @@ Below charts will be built to visualize the explorational and statistical analys
 -   Volin boxplot to compare the mean of (i) average speed & (ii) reaction time using **ggbetweenstats**
 
 -   Scatterdot plot to show the correlation between (i) average speed & (ii) reaction time using **ggstatsplots**
-
 
 The app user can select different variables/ options to run customized analysis:
 
@@ -85,7 +83,6 @@ The app user can select different variables/ options to run customized analysis:
 -   User can customize the statistical method such as parametric, nonparametric, robust or bayes for volin boxplot base on the distribution of the swimmer data.
 
 \
-
 
 ### 3. Split Times
 
