@@ -50,33 +50,44 @@ In this section, the app user will be able to peruse the datasets that have been
 
 \
 
-### 2. Speed
+### 2. Speed/ Reaction Time
 
 The app user will be given the opportunity to explore and confirm the following:
 
--   Correlation between average speed and: (i) reaction time and (ii) split times; using scatter plot (by gender, event, stroke, race distance and/or round). *\[Multivariate regression\]*
+-   Explore the distribution of (i) average speed & (ii) reaction time
 
--   Test the hypothesis that mean average speed of swimmers for any particular event is not the same across teams or across continents. *\[Multivariate regression\]*
+-   Explore the distribution of (i) average speed & (ii) reaction time of different continents (grouped by countries data)
 
-Test
+-   Compare the mean of (i) average speed & (ii) reaction time by selected variables and test the hypothesis that mean (i) average speed & (ii) reaction time of swimmers for any particular event is not the same
+ 
+-   Correlation between (i) average speed & (ii) reaction time for different styles, gender, distance and rounds
+
+
+Below charts will be built to visualize the explorational and statistical analysis:
+
+-   Interactive histogram and bar chart to shows the distribution using **ggiraph** and **ggplot**. The two graphs will be patched together with **patchwork**
+
+-   Scatterdot plot to show the (i) average speed & (ii) reaction time by continents using **ggdotplotstats**
+
+-   Volin boxplot to compare the mean of (i) average speed & (ii) reaction time using **ggbetweenstats**
+
+-   Scatterdot plot to show the correlation between (i) average speed & (ii) reaction time using **ggstatsplots**
+
+
+The app user can select different variables/ options to run customized analysis:
+
+![](speed_reactiontime.png)
+
+-   User can select the data scope with different variables including styles, gender, distance and rounds. In this way the user can select which variables to focus on. For example, user can select Style = backstroke, Gender = Male, Distance = 100m and Rounds = ALL to understand the average speed distribution for all rounds in the 100m Male Backstoke Event
+
+-   User can also customize the bin size for histogram to show meaningful pattern in distribution
+
+-   User can customize the statistical method such as parametric, nonparametric, robust or bayes for volin boxplot base on the distribution of the swimmer data.
 
 \
 
-### 4. Reaction Times
 
-The app user will be given the opportunity to explore and confirm the following:
-
--   Patterns in distribution, to check for normality, using histogram (by gender, event, stroke, race distance and/or round). This may help provide the coach with benchmarks for performance.
-
--   Correlation between reaction time and final time, using scatter plot (by gender, event, stroke, race distance and/or round). *\[Multivariate regression\]*
-
--   Test the hypothesis that mean reaction times are not the same across the two genders, across events. *\[Multivariate regression\]*
-
--   Test the hypothesis that mean reaction times are not the same across race distances, keeping gender constant. *\[Multivariate regression\]* 
-
-\
-
-### 5. Split Times
+### 3. Split Times
 
 The app user will be required to choose from the following options:
 
@@ -133,7 +144,7 @@ Analysis of Variance (ANOVA) to determine presence of statistically significant 
 
 \
 
-### 6. Performance Over Rounds
+### 4. Performance Over Rounds
 
 The app user will be given the opportunity to explore and confirm the following:
 
